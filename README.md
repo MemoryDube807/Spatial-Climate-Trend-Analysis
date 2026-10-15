@@ -61,11 +61,6 @@ Each map shows the **decadal trend** per grid cell. **Black dots mark cells wher
 
 ### Study area: Zambia's districts
 
-<p align="center">
-  <img src="images/zambia_districts.png" alt="Zambia level 2 administrative districts" width="55%">
-</p>
-
-
 
 The GADM level-2 district boundaries used to mask the climate grid. Any grid cell outside this border is set to NaN, which leaves 32 valid cells for analysis.
 
@@ -113,13 +108,6 @@ The GADM level-2 district boundaries used to mask the climate grid. Any grid cel
 - Only **one cell** in the far north passes the significance test. With 32 tests at the 5% level, one or two false positives are expected by chance, so this is **not** convincing evidence of a real trend.
 - Relative to the model's own mean rainfall (about 1,600 mm/year), the median trend is roughly **−1.8% per decade**, a weak signal.
 
----
-
-### 🖱️ Interactive version
-
-`zambia_climate_interactive.html` is a hover-enabled map of maximum temperature trends. Hovering over a cell shows its warming rate and whether the trend is reliable. Download the file and open it in any browser.
-
----
 
 ## 🔬 Method Pipeline
 
