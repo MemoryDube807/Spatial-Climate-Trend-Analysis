@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 The Story in 60 Seconds
+## 📖 The Story
 
 Global averages are comfortable numbers, but nobody farms the globe. A district agricultural officer in Zambia needs to know what is changing **in their area**, **how fast**, and **whether the change is real or just noise**.
 
@@ -65,15 +65,16 @@ Each map shows the **decadal trend** per grid cell. **Black dots mark cells wher
   <img src="images/zambia_districts.png" alt="Zambia level 2 administrative districts" width="55%">
 </p>
 
+
+
 The GADM level-2 district boundaries used to mask the climate grid. Any grid cell outside this border is set to NaN, which leaves 32 valid cells for analysis.
 
 ---
 
 ### 🔥 Maximum temperature: a hotter country with an east-west divide
 
-<p align="center">
-  <img src="images/tasmax_spatial_trend_map.png" alt="Spatial trend of annual maximum temperature in Zambia" width="75%">
-</p>
+<img width="2013" height="1985" alt="tasmax_spatial_trend_map" src="https://github.com/user-attachments/assets/a5c25781-4b86-4355-bf88-af06afb08827" />
+
 
 **How to read it:** Darker red means faster warming. The scale is symmetrical around zero, so white would mean no trend.
 
@@ -87,9 +88,8 @@ The GADM level-2 district boundaries used to mask the climate grid. Any grid cel
 
 ### 🌙 Minimum temperature: warmer nights, far more reliably
 
-<p align="center">
-  <img src="images/tasmin_spatial_trend_map.png" alt="Spatial trend of annual minimum temperature in Zambia" width="75%">
-</p>
+<img width="2403" height="2281" alt="tasmin_spatial_trend_map" src="https://github.com/user-attachments/assets/f87a62a0-3e19-4bbb-80af-d847c86e8b39" />
+
 
 **What it shows:**
 
@@ -101,9 +101,8 @@ The GADM level-2 district boundaries used to mask the climate grid. Any grid cel
 
 ### 🌧️ Precipitation: a spatial contrast, not a confirmed trend
 
-<p align="center">
-  <img src="images/pr_spatial_trend_map.png" alt="Spatial trend of annual precipitation in Zambia" width="75%">
-</p>
+<img width="2403" height="2281" alt="pr_spatial_trend_map" src="https://github.com/user-attachments/assets/bfa8da75-d5d6-43a7-8086-75843101b188" />
+
 
 **How to read it:** Brown means drying and green means wetting.
 
@@ -248,8 +247,8 @@ Honest caveats matter in climate work:
 
 ## 👤 Author
 
-**Your Name**
-📧 your.email@example.com · 🔗 [LinkedIn](https://linkedin.com/in/your-profile) · 🌐 [Portfolio](https://your-portfolio-link)
+**Memory Dube**
+📧 memorydube807@gmail.com
 
 *This project was completed as part of a spatial climate analysis practical exercise.*
 
