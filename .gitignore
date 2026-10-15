@@ -6,3 +6,5 @@
 
 # Large climate data files
 *.nc
+# GADM shapefiles
+gadm41_*
