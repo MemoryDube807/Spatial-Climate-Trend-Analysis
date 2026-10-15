@@ -1,0 +1,8 @@
+# Jupyter Notebook autosaves
+.ipynb_checkpoints/
+
+# Temporary GIS lock files
+*.LOC
+
+# Large climate data files
+*.nc
